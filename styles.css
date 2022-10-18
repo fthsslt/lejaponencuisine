@@ -53,7 +53,14 @@ footer p{
     text-decoration:none;
     color: black;
 }
-
+.autresrecettestitle h2{
+    text-align:center;
+}
+.autresrecettes{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
 .gallery {
     margin: 5px;
