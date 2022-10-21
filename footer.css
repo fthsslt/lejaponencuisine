@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 24);
+    height: 15vh;
+    margin-top: 3vh;
+    color: #ffffff;
+    padding: 1.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #8f8f8f;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
