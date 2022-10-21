@@ -1,65 +1,206 @@
-body{
-    font-family:'Ubuntu', sans-serif;
-    margin:0;
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
-header{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-color:aquamarine;
-    height:20vh;
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 20vh;
 }
-header h1{
-    align-items:center;
-    justify-content:center;
+
+header h1 {
+    align-items: center;
+    justify-content: center;
 }
-header img{
-    padding-right:1vw;
+
+header img {
+    padding-right: 1vw;
 }
-main{
+
+main {
     margin-left:25%;
     margin-right:25%;
 }
-.titre1{
-    padding:5px;
-    background-color:rgb(112, 255, 167);
-}
-footer{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    background-color:rgb(24, 24, 24);
-    height:15vh;
-    margin-top:3vh;
-    color:#ffffff;
-    padding:1.5em;
-}
-footer a{
-    text-decoration:none;
-    color:#ffffff;
-}
-footer a:hover{
-    color:#8f8f8f;
-}
-footer p{
-    font-size:0.8rem;
-}
-.logouniv{
-    padding-right:3vw;
-    padding-bottom:1vh;
+
+.titre1 {
+    padding: 5px;
+    background-color: rgb(112, 255, 167);
 }
 
-.lejaponencuisine{
-    text-decoration:none;
+.logouniv {
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+}
+
+.deuxparties {
+    display: grid;
+}
+
+.lejaponencuisine {
+    text-decoration: none;
     color: black;
 }
-.autresrecettestitle h2{
-    text-align:center;
+
+.autresrecettestitle h2 {
+    text-align: center;
 }
-.autresrecettes{
+.sushi{
     display:flex;
-    justify-content:center;
+    justify-content:left;
     align-items:center;
+    background-image:url(img/sushi1.webp);
+    background-size:cover;
+    padding-left:30px;
+    font-size:1.3rem;
+    transition:0.2s;
+    color:#fff;
+    margin-bottom:6vh;
+}
+.sushi img{
+    width:100%;
+}
+.sushi a{
+    text-decoration:none;
+    color:#000;
+    width:100%;
+    height:100%;
+}
+.sushi a:hover{
+    transition:0.2s;
+    color:#fff;
+}
+.sushi:hover{
+    cursor:pointer;
+    background-image:url(img/sushi2.webp);
+    transition:0.2s;
+}
+.onigiri{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-image:url(img/onigiri1.webp);
+    background-size:cover;
+    padding-left:30px;
+    font-size:1.3rem;
+    transition:0.2s;
+    color:#fff;
+    margin-bottom:6vh;
+}
+.onigiri img{
+    width:100%;
+}
+.onigiri a{
+    text-decoration:none;
+    color:#000;
+    width:100%;
+    height:100%;
+}
+.onigiri a:hover{
+    transition:0.2s;
+    color:#fff;
+}
+.onigiri:hover{
+    cursor:pointer;
+    background-image:url(img/onigiri2.webp);
+    transition:0.2s;
+}
+.gomatofu{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-image:url(img/gomatofu1.webp);
+    background-size:cover;
+    padding-left:30px;
+    font-size:1.3rem;
+    transition:0.2s;
+    color:#fff;
+    margin-bottom:6vh;
+}
+.gomatofu img{
+    width:100%;
+}
+.gomatofu a{
+    text-decoration:none;
+    color:#000;
+    width:100%;
+    height:100%;
+}
+.gomatofu a:hover{
+    transition:0.2s;
+    color:#fff;
+}
+.gomatofu:hover{
+    cursor:pointer;
+    background-image:url(img/gomatofu2.webp);
+    transition:0.2s;
+}
+.katsudon{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-image:url(img/katsudon1.webp);
+    background-size:cover;
+    padding-left:30px;
+    font-size:1.3rem;
+    transition:0.2s;
+    color:#fff;
+    margin-bottom:6vh;
+}
+.katsudon img{
+    width:100%;
+}
+.katsudon a{
+    text-decoration:none;
+    color:#000;
+    width:100%;
+    height:100%;
+}
+.katsudon a:hover{
+    transition:0.2s;
+    color:#fff;
+}
+.katsudon:hover{
+    cursor:pointer;
+    background-image:url(img/katsudon2.webp);
+    transition:0.2s;
+}
+.ramenaumiso{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-image:url(img/ramenaumiso1.jpg);
+    background-size:cover;
+    padding-left:30px;
+    font-size:1.3rem;
+    transition:0.2s;
+    color:#fff;
+    margin-bottom:6vh;
+}
+.ramenaumiso img{
+    width:100%;
+}
+.ramenaumiso a{
+    text-decoration:none;
+    color:#000;
+    width:100%;
+    height:100%;
+}
+.ramenaumiso a:hover{
+    transition:0.2s;
+    color:#fff;
+}
+.ramenaumiso:hover{
+    cursor:pointer;
+    background-image:url(img/ramenaumiso2.jpg);
+    transition:0.2s;
+}
+.autresrecettes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery {
@@ -67,21 +208,37 @@ footer p{
     border: 1px solid #ccc;
     float: left;
     width: 180px;
-  }
-  
+}
+
 .gallery:hover {
     border: 1px solid #777;
-  }
-  
+}
+
 .gallery img {
     width: 100%;
     height: auto;
-  }
-  
+    opacity:0.5;
+}
+
 .desc {
     padding: 15px;
     text-align: center;
-  }
-.autressites{
-    text-align:center;
+}
+
+.autressites {
+    text-align: center;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
